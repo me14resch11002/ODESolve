@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="lapackpp" displayName="lapackpp" projectFiles="true">
+        <itemPath>include/lapackpp/arch.h</itemPath>
+        <itemPath>include/lapackpp/bfd.h</itemPath>
+        <itemPath>include/lapackpp/blas1.h</itemPath>
+        <itemPath>include/lapackpp/blas1pp.h</itemPath>
+        <itemPath>include/lapackpp/blas2.h</itemPath>
+        <itemPath>include/lapackpp/blas2pp.h</itemPath>
+        <itemPath>include/lapackpp/blas3.h</itemPath>
+        <itemPath>include/lapackpp/blas3pp.h</itemPath>
+        <itemPath>include/lapackpp/blaspp.h</itemPath>
+        <itemPath>include/lapackpp/bmd.h</itemPath>
+        <itemPath>include/lapackpp/f2c.h</itemPath>
+        <itemPath>include/lapackpp/fmd.h</itemPath>
+        <itemPath>include/lapackpp/genmd.h</itemPath>
+        <itemPath>include/lapackpp/gfd.h</itemPath>
+        <itemPath>include/lapackpp/gfqrc.h</itemPath>
+        <itemPath>include/lapackpp/gfqrd.h</itemPath>
+        <itemPath>include/lapackpp/gmc.h</itemPath>
+        <itemPath>include/lapackpp/gmd.h</itemPath>
+        <itemPath>include/lapackpp/gmf.h</itemPath>
+        <itemPath>include/lapackpp/gmi.h</itemPath>
+        <itemPath>include/lapackpp/gmli.h</itemPath>
+        <itemPath>include/lapackpp/lacomplex</itemPath>
+        <itemPath>include/lapackpp/lacomplex.h</itemPath>
+        <itemPath>include/lapackpp/lacvd.h</itemPath>
+        <itemPath>include/lapackpp/laexcp.h</itemPath>
+        <itemPath>include/lapackpp/lafnames.h</itemPath>
+        <itemPath>include/lapackpp/laindex.h</itemPath>
+        <itemPath>include/lapackpp/lapack.h</itemPath>
+        <itemPath>include/lapackpp/lapackc.h</itemPath>
+        <itemPath>include/lapackpp/lapackd.h</itemPath>
+        <itemPath>include/lapackpp/lapackpp.h</itemPath>
+        <itemPath>include/lapackpp/laprefs.h</itemPath>
+        <itemPath>include/lapackpp/larvd.h</itemPath>
+        <itemPath>include/lapackpp/laslv.h</itemPath>
+        <itemPath>include/lapackpp/lasvd.h</itemPath>
+        <itemPath>include/lapackpp/latmpl.h</itemPath>
+        <itemPath>include/lapackpp/lautil.h</itemPath>
+        <itemPath>include/lapackpp/lavc.h</itemPath>
+        <itemPath>include/lapackpp/lavd.h</itemPath>
+        <itemPath>include/lapackpp/laversion.h</itemPath>
+        <itemPath>include/lapackpp/lavi.h</itemPath>
+        <itemPath>include/lapackpp/lavli.h</itemPath>
+        <itemPath>include/lapackpp/ltgmd.h</itemPath>
+        <itemPath>include/lapackpp/spdbmd.h</itemPath>
+        <itemPath>include/lapackpp/spdfd.h</itemPath>
+        <itemPath>include/lapackpp/spdmd.h</itemPath>
+        <itemPath>include/lapackpp/spdtrmd.h</itemPath>
+        <itemPath>include/lapackpp/sybfd.h</itemPath>
+        <itemPath>include/lapackpp/sybmd.h</itemPath>
+        <itemPath>include/lapackpp/syfd.h</itemPath>
+        <itemPath>include/lapackpp/symd.h</itemPath>
+        <itemPath>include/lapackpp/sytrmd.h</itemPath>
+        <itemPath>include/lapackpp/trfd.h</itemPath>
+        <itemPath>include/lapackpp/trmd.h</itemPath>
+        <itemPath>include/lapackpp/ultgmd.h</itemPath>
+        <itemPath>include/lapackpp/utgmd.h</itemPath>
+        <itemPath>include/lapackpp/uutgmd.h</itemPath>
+        <itemPath>include/lapackpp/vc.h</itemPath>
+        <itemPath>include/lapackpp/vd.h</itemPath>
+        <itemPath>include/lapackpp/vf.h</itemPath>
+        <itemPath>include/lapackpp/vi.h</itemPath>
+        <itemPath>include/lapackpp/vli.h</itemPath>
+      </logicalFolder>
+      <itemPath>include/ODESolver.hpp</itemPath>
+      <itemPath>include/ShockTube.hpp</itemPath>
+      <itemPath>include/heat.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/ODESolver.cpp</itemPath>
+      <itemPath>src/ShockTube.cpp</itemPath>
+      <itemPath>src/heat.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>include/lapackpp</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../June 7 test/test/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>blas</linkerLibLibItem>
+            <linkerLibLibItem>lapack</linkerLibLibItem>
+            <linkerLibLibItem>lapackpp</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="include/ODESolver.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ShockTube.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/heat.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/arch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/bfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas1pp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas2pp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas3pp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blaspp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/bmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/f2c.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/fmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/genmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gfqrc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gfqrd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gmc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gmf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gmi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gmli.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lacomplex" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lacomplex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lacvd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/laexcp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lafnames.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/laindex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lapack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lapackc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lapackd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lapackpp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/laprefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/larvd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/laslv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lasvd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/latmpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lautil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lavc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lavd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/laversion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lavi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lavli.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/ltgmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/spdbmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/spdfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/spdmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/spdtrmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/sybfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/sybmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/syfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/symd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/sytrmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/trfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/trmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/ultgmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/utgmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/uutgmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/vc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/vd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/vf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/vi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/vli.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ODESolver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ShockTube.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/heat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="include/ODESolver.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ShockTube.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/heat.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/arch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/bfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas1pp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas2pp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blas3pp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/blaspp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/bmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/f2c.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/fmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/genmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gfqrc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gfqrd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gmc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gmf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gmi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/gmli.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lacomplex" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lacomplex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lacvd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/laexcp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lafnames.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/laindex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lapack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lapackc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lapackd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lapackpp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/laprefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/larvd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/laslv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lasvd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/latmpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lautil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lavc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lavd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/laversion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lavi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/lavli.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/ltgmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/spdbmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/spdfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/spdmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/spdtrmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/sybfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/sybmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/syfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/symd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/sytrmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/trfd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/trmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/ultgmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/utgmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/uutgmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/vc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/vd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/vf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/vi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/lapackpp/vli.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ODESolver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ShockTube.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/heat.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
